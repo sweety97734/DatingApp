@@ -12,7 +12,6 @@ import { AccountService } from '../_services/account.service';
 export class RegisterComponent implements OnInit {
   @Output() cancelRegister = new EventEmitter();
   registerForm: FormGroup;
-  model: any;
   maxDate: Date;
   validationErrors: string[] = [];
 
