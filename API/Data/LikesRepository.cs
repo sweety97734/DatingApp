@@ -61,9 +61,5 @@ namespace API.Data
                 .FirstOrDefaultAsync(x => x.Id == userId);
         }
 
-        Task<IEnumerable<LikeDto>> ILikesRepository.GetUserLikes(LikesParams likesParams)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 } 
